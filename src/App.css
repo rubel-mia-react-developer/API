@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(61, 94%, 49%);
+
+
+}
+.allcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(167, 93%, 48%);
+}
+.singel-users{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.singel-users:hover{
+    background: grey;
+    transition: all linear.4s;
+    border-radius: 30px;
+}
+
+
